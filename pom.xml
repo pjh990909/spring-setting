@@ -11,7 +11,7 @@
 
 	<!--1. 의존성추가 3개-> web.xml에서 dispatcherServlet정의하기 -->
 
-	<!--2. jsp에서 jstl 써야하니까 jstl 라이브러리 추가하기 -->
+	<!--2. jsp에서 jstl 써야하니까 jstl 라이브러리 추가하기 -> -->
 
 	<!--3. 코드짜다가 dao만들때 db연결하는 라이브러리 추가하기 (jdbc,pool,mybatis) -> web.xml에서 Context Listener등록 -->
 
@@ -34,7 +34,7 @@
 </project>
 
 
-<!--의존성추가 3개코드 -->
+<!-- (1번 >>web.xml이동)의존성추가 3개코드 -->
 <properties>
 	<org.springframework-version>4.3.3.RELEASE</org.springframework-version>
 </properties>
